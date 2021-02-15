@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: Apercu Pro;
+  src: local("Apercu-Pro") url(./fonts/apercu/apercu_regular_pro.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Circular Std;
+  src: local("Circular-Std") url(./fonts/circular/CircularStd-Book.otf) format("opentype");
+}
+
+@font-face {
+  font-family:Calling Code;
+  src: local("Calling-Code") url(./fonts/calling-code/r2.otf) format("opentype");
+}

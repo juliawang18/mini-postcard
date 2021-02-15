@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'; // <-- this is how the file know where the css styles are for the html elements below
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* 
+        here is where you will write the html for your postcard :)
+        send something nice to your peers or pms !! 
+      */}
+      <div className="placeholder-text">Your postcard goes here!</div>
     </div>
   );
 }
